@@ -207,6 +207,7 @@ body {
   font-family: inherit;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
 
   padding: 10px 32px;
 
@@ -362,6 +363,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.agree-text {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
@@ -385,9 +388,10 @@ body {
   border-color: #2196f3;
 }
 
-.checkbox-label > a {
+.agree-text > a {
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: #2196f3;
 }
 .submit-button-container {
   display: flex;
@@ -476,6 +480,7 @@ body {
 
   font-weight: 700;
   line-height: 1.14;
+  font-size: 14px;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -633,6 +638,7 @@ body {
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  font-size: 14px;
   text-transform: uppercase;
   color: #ffffff;
 
